@@ -1,0 +1,76 @@
+Heidi SQL
+POS
+INVENTORY
+LAPORAN
+
+Tabel Barang
+Tabel Kategori
+Tabel Unit
+Tabel Transaksi
+
+Tabel User
+id_user
+nama_lengkap
+jk
+alamat
+username
+password
+
+Tabel Barang
+id_barang
+kode_barang
+nama_barang
+detail_barang
+satuan
+kategori
+status (aktif/tidak aktif)
+created at
+updated at
+
+Tabel Unit
+id_unit
+nama unit
+alamat
+no_telp unit
+no_telp PIC
+PIC
+no_rekening
+Status (aktif/tidak aktif)
+created at
+updated at
+
+Tabel Inventori
+(pake barcode)
+id_inventori
+id_barang
+qty
+harga_beli
+harga_jual
+created at
+updated at
+
+soklin lantai (20) 2000
+soklin lantai (45) 2500 (insert)
+
+Tabel Transaksi
+id_transaksi
+id_inventori
+id_unit
+jumlah_beli
+cara_bayar (cash/kredit) 1/0
+status_bayar(1/0) Lunas/belum terbayar
+status_pengambilan_barang
+created at
+updated at
+
+select where id_barang = 3 and max_id
+Filter Transaksi (Check by unit, by tanggal transaksi, by periode, by unit & bulan)
+
+PRC (percetakan)
+ATK (alat tulis kantor)
+SUP (supplier)
+AKB (alat kebersihan)
+
+Harvia Code
+
+
